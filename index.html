@@ -8,3 +8,63 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Javascript Quiz</title>
 </head>
+
+<body>
+    <header>
+        <a id=leaderboard-link>Highscores <i class="fas fa-hand-point-left fa-lg"></i>
+        </i></a> 
+        
+        <time>Time: <span id="time"></span></time>
+    </header>
+
+    <main>
+        <div id=start-card class="card justify-content-center">
+            <h2 id=title>Coding Quiz Challenge</h2>
+            <p>Answer the following coding related questions within the time limit <br><br> Incorrect answers with result in a 10 seconds penalty!</p>
+            <button id=start-button class="button">BEGIN!</button>
+        </div>
+
+        <div hidden id=question-card class="card justify-content-center">
+            <h3 id=question-text></h2>
+            <div id=quiz-options>
+                <button id=option0 class="button option-button"></button>
+                <button id=option1 class="button option-button"></button>
+                <button id=option2 class="button option-button"></button>
+                <button id=option3 class="button option-button"></button>
+            </div>
+            <div id=result-div>
+                <hr>
+                <p id=result-text></p>
+            </div>
+
+        </div>
+
+        <div hidden id=score-card class="card justify-content-center">
+            <h2>FINISHED!</h2>
+            <p>Your final score is <span id=score></span>.</p>
+            <form class="inline-form" id="submission-form">
+                  <label for="initials">Enter initials: </label>
+                  <input type="text" id="initials">
+            </form>
+            <div class="inline-buttons" >   
+                <button id="back-button1" class="button">Go Back</button>
+                <button id="submit-button" class="button">Submit</button>
+            </div>
+        </div>
+
+        <div hidden id=leaderboard-card class="card">
+            <h2>Highscores</h2>
+            <ol id="highscore-list">
+            </ol>
+            <div class="inline-buttons">
+                <button id="back-button2" class="button">Go Back</button>
+                <button id="clear-button" class="button">Clear Highscores</button>
+            </div>
+        </div>
+
+    </main>
+    
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
