@@ -1,0 +1,116 @@
+:root {
+    --darker: rgb(61, 79, 139);
+    --lighter: rgb(100, 123, 145);
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: "press start 2p";
+    margin: 0px;
+    background-image: url("/assets/images/4b7e815a-669f-4023-ac73-6c7691fe9a9f.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+    
+  /* Header Styles  */
+  header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--darker);
+    color: #ffffff;
+    padding: 3vh;
+  }
+  
+  #leaderboard-link:hover {
+    color: var(--lighter);
+    cursor: pointer;
+  }
+  
+  time {
+    min-width: 85px;
+  }
+    
+  /* Main Styles */
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    
+  /* Button Styles */
+  .button {
+    display: block;
+    color: #ffffff;
+    background-color: var(--darker);
+    padding: 2vh;
+    border-radius: 8px;
+    border: none;
+  }
+    
+  .inline-buttons {
+    display: inline-flex;
+    margin: 5px;
+  }
+    
+  /* Card Styles */
+  .card {
+    max-width: 80%;
+    margin-top: 15vh;
+    border: solid;
+    border-width: 2px;
+    padding: 3vw;
+    border-radius: 30px;
+    border-color: lightgray;
+  }
+    
+  /* Start Card Styles */
+  #start-card h2 {
+    text-align: center;
+    font-weight: bold;
+  }
+    
+  /* Question Card Styles */
+  .option-button {
+    width: 100%;
+    text-align: left;
+    margin: 5px;
+  }
+    
+  #result-div {
+    display: none;
+  }
+    
+  /* Score Card Styles */
+  .inline-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+    
+  #initials {
+    width: 25%;
+    margin: 8px;
+    padding: 1vh;
+  }
+    
+  /* Leaderboard Card Styles */
+  #back-button1, #back-button2, #submit-button, #clear-button {
+    margin: 5px;
+  }
+    
+  .highscore-list {
+    padding-inline-start: 20px;
+  }
+    
+  /* Media Queries */
+  @media screen and (min-width: 850px) {
+    .card {
+      max-width: 680px;
+    }
+  }
+    
+  button:hover {
+    background-color: lightslategray;
+    }  
