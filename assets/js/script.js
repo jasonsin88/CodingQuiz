@@ -38,4 +38,10 @@ const questions = [
       options: ["1. break", "2. stop", "3. halt", "4. exit"],
       answer: "1. break",
     },
-  ];
+];
+
+//select each card div by id and assign to variables
+const startCard = document.getElementById("start-card");
+const questionCard = document.getElementById("question-card");
+const scoreCard = document.getElementById("score-card");
+const leaderboardCard = document.getElementById("leaderboard-card");
