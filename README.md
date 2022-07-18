@@ -12,4 +12,5 @@ This is a timed coding quiz, utilizing HTML, CSS, and Javascript. The quiz is mu
 
 ## Deployed Links
 Application: https://jasonsin88.github.io/CodingQuiz/
+
 GitHub: https://github.com/jasonsin88/CodingQuiz
